@@ -1,157 +1,125 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="">
-<head>
-    <title>Untitled Document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
-    <link rel='icon' type='image/svg+xml' href='resources/images/favicon_play.svg' />
-    <link rel='alternate icon' href='resources/images/favicon_play.ico' />
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet'>
-
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/главная/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/главная/data.js"></script>
     <script type="text/javascript">
-        if (location.href.toString().indexOf('file://localhost/') == 0) {
-            location.href = location.href.toString().replace('file://localhost/', 'file:///');
-        }
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+  </head>
+  <body>
+    <div id="base" class="">
 
-    <!--<link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/handoff.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/codemirror.css" />-->
-</head>
-<body scroll="no" class="hashover" style="overflow: hidden;">
-    <div id="topPanel">
-        <div id="interfaceControlFrame">
-            <div id="interfaceControlFrameLeft">
-                <div id="interfaceControlFrameMinimizeContainer">
-                    <a title="Collapse" id="interfaceControlFrameMinimizeButton">
-                        <div id="minimizeArrow" class="minimizeButtonHover minimizeIcon"></div>
-                        <div id="minimizeX" class="minimizeButton minimizeIcon"></div>
-                    </a>
-                </div>
-                <div id="interfaceControlFrameCloseContainer">
-                    <a title="Close" id="interfaceControlFrameCloseButton">CLOSE</a>
-                </div>
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u0" class="ax_default">
+        <div id="u0_state0" class="panel_state" data-label="State 1" style="">
+          <div id="u0_state0_content" class="panel_state_content">
 
-                <div id="sitemapControlFrameContainer" title="Project Pages">
-                    <div id="projectControlFrameHeaderContainer">
-                        <ul id="projectControlFrameHeader"></ul>
-                    </div>
-                    
-                    <div id="interfacePageNameContainer">
-                        <div id="interfacePageNameButton" class='pageNameHeader'>
-                            &nbsp;
-                        </div>
-                        <div id="interfacePageCount" class='pageCountHeader'>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div id="interfaceAdaptiveViewsContainer" title="Adaptive Views">
-                    <div id="interfaceAdaptiveViewsIconButton">&nbsp;</div>
-                    <div id="interfaceAdaptiveViewsButton" class='adaptiveViewHeader'>
-                        &nbsp;
-                    </div>
-                    <div id="adaptiveViewsDropdown" class="caret"></div>
-                </div>
-            </div>
-            
-            <div id="interfaceControlFrameContainer">
-                <div id="handoffControlFrameHeaderContainer">
-                    <ul id="handoffControlFrameHeader"></ul>
-                </div>
-                <div id="interfaceControlFrameLogoContainer">
-                    <div id="previewNotice">
-                        Local Preview
-                    </div>
-                </div>
+            <!-- Unnamed (Image) -->
+            <div id="u1" class="ax_default image">
+              <img id="u1_img" class="img " src="images/главная/u1.svg"/>
+              <div id="u1_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
             </div>
 
-            <div id="interfaceControlFrameRight">
-                <div id="publishContainer">
-                    <a id="publishButton">Share Prototype</a>
-                </div>
-
-                <div id="scaleMenuButton" title="Zoom and Scale">
-                    <div id="scaleValue">100%</div>
-                    <div id="expandScaleArrow" class="caret"></div>
-                </div>
-                
-                <div id="inspectControlFrameHeaderContainer">
-                    <ul id="inspectControlFrameHeader">
-                        <li id="overflowBtn">
-                            <a id="overflowMenuButton" title="View Options"></a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="separatorContainer">
-                    <div class="separator"></div>
-                </div>
-
-                <div id="overflowMadeWith"><a href="https://www.axure.com" id="axureLogo" target="_blank"></a></div>
-
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2" class="ax_default button">
+              <div id="u2_div" class=""></div>
+              <div id="u2_text" class="text ">
+                <p><span>На главную</span></p>
+              </div>
             </div>
 
+            <!-- Unnamed (Rectangle) -->
+            <div id="u3" class="ax_default paragraph">
+              <div id="u3_div" class=""></div>
+              <div id="u3_text" class="text ">
+                <p><span>Добро пожаловать на мой сайт, здесь вы сможете узнать немного больше обо мне.</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u4" class="ax_default button">
+              <img id="u4_img" class="img " src="images/главная/u4.svg"/>
+              <div id="u4_text" class="text ">
+                <p><span>BUTTON</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u5" class="ax_default image">
+              <img id="u5_img" class="img " src="images/главная/u5.svg"/>
+              <div id="u5_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u6" class="ax_default button">
+              <div id="u6_div" class=""></div>
+              <div id="u6_text" class="text ">
+                <p><span>Мои контакты</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u7" class="ax_default button">
+              <div id="u7_div" class=""></div>
+              <div id="u7_text" class="text ">
+                <p><span>Об учебе</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8" class="ax_default button">
+              <div id="u8_div" class=""></div>
+              <div id="u8_text" class="text ">
+                <p><span>Основное</span></p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div id="popupContainer">
-        <div id='interfaceAdaptiveViewsListContainer'>
-        </div>
-
-        <div id='interfaceScaleListContainer'>
-        </div>
-
-        <div id='overflowMenuContainer'>
-        </div>
-
-        <div id='scaleMenuContainer'>
-        </div>
-    </div>
-    <div id="outerContainer">
-        <div id="clippingBounds">
-            <div id="clippingBoundsScrollContainer"></div>
-        </div>
-
-        <div id="mHideSidebar"></div>
-        <div id="lsplitbar" class="splitbar"></div>
-
-        <div id="mainPanel">
-            <div id="mainPanelContainer" style="position: relative; width:100%; height: 100%;">
-                <div id="clipFrameScroll" style="position: relative; width:100%; height: 100%; background-color: #ffffff;">
-                    <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="about:blank" frameborder="0" style="display: block;position:absolute;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div id="rsplitbar" class="splitbar"></div>
-
-    </div>
-
-    <div id="maximizePanelContainer" class="maximizePanelContainer">
-        <div id="maximizePanelOver">
-            <div id="maximizePanel" title="Expand" class="maximizePanelOver">
-                <div id="maximizeButton" class="maximizeButton maximizeIcon"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="mobileControlFrameContainer"></div>
-
-<!-- 10.0.0.3857 -->
-<script src="resources/scripts/jquery-3.2.1.min.js"></script>
-<script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
-<script src="resources/scripts/axutils.js"></script>
-<script src="resources/scripts/messagecenter.js"></script>
-<script src="resources/scripts/player/axplayer.js"></script>
-<script src="resources/scripts/player/init.js"></script>
-
-
-</body>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
 </html>
