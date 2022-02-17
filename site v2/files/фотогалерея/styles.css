@@ -1,0 +1,276 @@
+﻿body {
+  margin:0px;
+  background-image:url('../../images/логин/bg.jpg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:3088px 2056px;
+  background-origin:border-box;
+  position:relative;
+  left:-0px;
+  width:1366px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u33_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:323px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u33 {
+  border-width:0px;
+  position:absolute;
+  left:24px;
+  top:23px;
+  width:323px;
+  height:110px;
+  display:flex;
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u33 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u33_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u34_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:92px;
+}
+#u34 {
+  border-width:0px;
+  position:absolute;
+  left:489px;
+  top:402px;
+  width:100px;
+  height:92px;
+  display:flex;
+}
+#u34 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u34_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u35_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:92px;
+}
+#u35 {
+  border-width:0px;
+  position:absolute;
+  left:1386px;
+  top:402px;
+  width:100px;
+  height:92px;
+  display:flex;
+}
+#u35 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u35_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u36_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:545px;
+  height:48px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Impact Bold", "Impact Обычный", "Impact", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:40px;
+  color:#FFFFFF;
+}
+#u36 {
+  border-width:0px;
+  position:absolute;
+  left:728px;
+  top:430px;
+  width:545px;
+  height:48px;
+  display:flex;
+  font-family:"Impact Bold", "Impact Обычный", "Impact", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:40px;
+  color:#FFFFFF;
+}
+#u36 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u36_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+body.a {  background-color:rgba(255, 255, 255, 1);
+  background-image:url('../../images/логин/bg.jpg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:3088px 2056px;
+  background-origin:border-box;
+  position:relative;
+  left:-0px;
+  width:1920px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#u33.a {
+}
+#u33_div.a {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:323px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u33.a {
+}
+#u33_text.a {
+}
+#u33 .text.a {
+  align-self:center;
+  padding:2px 2px 2px 2px;
+}
+#u34.a {
+}
+#u34_img.a {
+}
+#u34.a {
+}
+#u34_text.a {
+}
+#u34 .text.a {
+  align-self:center;
+  padding:2px 2px 2px 2px;
+}
+#u35.a {
+}
+#u35_img.a {
+}
+#u35.a {
+}
+#u35_text.a {
+}
+#u35 .text.a {
+  align-self:center;
+  padding:2px 2px 2px 2px;
+}
+#u36.a {
+}
+#u36_div.a {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:545px;
+  height:48px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Impact Bold", "Impact Обычный", "Impact", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:40px;
+  color:#FFFFFF;
+}
+#u36.a {
+}
+#u36_text.a {
+}
+#u36 .text.a {
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+}
