@@ -1,0 +1,446 @@
+﻿body {
+  margin:0px;
+  background-image:url('../../images/логин/bg.jpg');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%;
+  background-origin:border-box;
+  position:relative;
+  left:-0px;
+  width:1920px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u31 {
+  position:fixed;
+  left:50%;
+  margin-left:-960px;
+  top:0px;
+  width:1920px;
+  height:1070px;
+}
+#u31_state0 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1070px;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
+  background-image:none;
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u31_state0_content {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u32_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1200px;
+  height:562px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:48px;
+  color:#FFFFFF;
+}
+#u32 {
+  border-width:0px;
+  position:absolute;
+  left:469px;
+  top:177px;
+  width:1200px;
+  height:562px;
+  display:flex;
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:48px;
+  color:#FFFFFF;
+}
+#u32 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u32_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u33_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:385px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u33 {
+  border-width:0px;
+  position:absolute;
+  left:1213px;
+  top:23px;
+  width:385px;
+  height:110px;
+  display:flex;
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u33 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u33_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u34_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:385px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u34 {
+  border-width:0px;
+  position:absolute;
+  left:768px;
+  top:23px;
+  width:385px;
+  height:110px;
+  display:flex;
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u34 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u34_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u35_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:385px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u35 {
+  border-width:0px;
+  position:absolute;
+  left:323px;
+  top:23px;
+  width:385px;
+  height:110px;
+  display:flex;
+  font-family:"Ampir Deco Bold", "Ampir Deco Regular", "Ampir Deco", sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#000000;
+}
+#u35 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u35_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u36_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:110px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u36 {
+  border-width:0px;
+  position:absolute;
+  left:1790px;
+  top:23px;
+  width:110px;
+  height:110px;
+  display:flex;
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u36 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u36_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u37_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:110px;
+  height:110px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:4px;
+  border-style:solid;
+  border-color:rgba(0, 0, 0, 1);
+  border-radius:30px;
+  -moz-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  -webkit-box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  box-shadow:10px 10px 5px rgba(0, 0, 0, 0.34901960784313724);
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u37 {
+  border-width:0px;
+  position:absolute;
+  left:1655px;
+  top:23px;
+  width:110px;
+  height:110px;
+  display:flex;
+  font-family:"Impact Обычный", "Impact", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+}
+#u37 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u37_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u38_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:43px;
+  height:50px;
+}
+#u38 {
+  border-width:0px;
+  position:absolute;
+  left:1689px;
+  top:53px;
+  width:43px;
+  height:50px;
+  display:flex;
+  color:#000000;
+}
+#u38 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u38_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u39_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
+}
+#u39 {
+  border-width:0px;
+  position:absolute;
+  left:1820px;
+  top:53px;
+  width:50px;
+  height:50px;
+  display:flex;
+  color:#000000;
+}
+#u39 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u39_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u40 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:0px;
+}
+#u41_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:389px;
+  height:824px;
+}
+#u41 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:177px;
+  width:374px;
+  height:809px;
+  display:flex;
+}
+#u41 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u41_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
